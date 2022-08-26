@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="index.js"></script>
 
   <title>Dheeraj C Justine - Index</title>
   <meta content="" name="description">
@@ -102,7 +104,8 @@
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>07 October 2000</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong>
-                    <span>https://dheerajcjustin.github.io/DcjResume/</span></li>
+                    <span>https://dheerajcjustin.github.io/DcjResume/</span>
+                  </li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>9400253202</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Wayand ,Kerala</span></li>
                 </ul>
@@ -614,27 +617,27 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSd8oVdkIoyExKNjbqiz_vhgwoY8qqm9I0DSjeSeqBf30mzAIw/formResponse" method="post" role="form" class="">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="entry.2005620554" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <input type="email" class="form-control" name="entry.1045781291" id="email" placeholder="Your Email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <input type="text" class="form-control" name="entry.1065046570" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="entry.839337160" rows="5" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
+              <!-- <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              </div> -->
+              <div class="text-center"><button type="submit" onClick="sendEmail()">Send Message</button></div>
             </form>
 
           </div>
